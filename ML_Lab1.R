@@ -6,8 +6,7 @@ width in cm. Show a scatter plot of the first two attributes. Use different symb
 plot data from different classes.
 '''
 data<-iris
-plot(data$Sepal.Length, data$Sepal.Width,pch=c(2,8,3)[unclass(data$Species)],main="Edgar
-Andersons Iris Data",col= c('red','black','blue'))
+plot(data$Sepal.Length, data$Sepal.Width,pch=c(2,8,3)[unclass(data$Species)],main="Edgar Andersons Iris Data",col= c('red','black','blue'))
 legend(1,2.4,c('Setosa','Versicolor','Virginia'),pch=c(2,8,3))
 legend("topleft",legend=c('Setosa','Versicolor','Virginia'),pch=c(2,8,3))
 
